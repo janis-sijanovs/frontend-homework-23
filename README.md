@@ -1,24 +1,14 @@
-# animal-list
+# Frontend Homework 23
 
-## Project setup
-```
-npm install
-```
+I have finished my twenty-third homework.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Vue annoys me.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Typescript doesn't help at all.
+Error messages aren't helpful.
 
-### Lints and fixes files
-```
-npm run lint
-```
+Once again, there are Typescript errors in the code
+But at least it works.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+I'm too tired to improve it and don't think I can manage on my own.
+Will wait for the lesson to see how everyone else did.
