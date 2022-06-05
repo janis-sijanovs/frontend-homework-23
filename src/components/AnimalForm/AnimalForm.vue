@@ -5,12 +5,7 @@
       <option value="cat">Cat</option>
       <option value="dog">Dog</option>
     </select>
-    <button
-      class="btn btn-primary"
-      @click="$emit('add-animal', this.newAnimal)"
-    >
-      Add Animal
-    </button>
+    <button class="btn btn-primary" @click="submit()">Add Animal</button>
   </div>
 </template>
 
@@ -24,6 +19,12 @@ export default defineComponent({
     animalName: "" as string,
     animalType: "cat",
   }),
+  methods: {
+    submit() {
+      this.$emit("add-animal", this.newAnimal);
+      this.animalName = "";
+    },
+  },
   computed: {
     newAnimal() {
       if (this.animalName) {
